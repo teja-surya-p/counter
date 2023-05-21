@@ -1,0 +1,40 @@
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30vh;
+}
+
+.box {
+    display: flex;
+    height: 30vh;
+    width: 25vh;
+}
+
+.red {
+    border: 1vh solid rgb(126, 0, 0);
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.blue {
+    border: 1vh solid rgb(0, 0, 124);
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.green {
+    border: 1vh solid rgb(0, 128, 0);
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.box {
+    padding-top: 8vh;
+    padding-left: 8vh;
+    font-size: 80px;
+}
+
+#clear {
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 84vh;
+    margin-top: 6vh;
+    border: none;
+}
